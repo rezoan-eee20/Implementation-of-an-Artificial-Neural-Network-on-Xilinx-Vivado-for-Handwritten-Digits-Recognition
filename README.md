@@ -1,1 +1,2 @@
 # Implementation-of-an-Artificial-Neural-Network-on-FPGA-for-Handwritten-Digits-Recognition
+Developed Multiplier and Accumulator (MAC), Accumulator (ACC) and integrated with sigmoid IP block in Verilog to implement ANN that can recognize handwritten digits of 8×8 pixels images. The input weight, digit's pixel was provided in hex and passed to MAC which computes summation of weight and pixel value of a digit. Then the output was passed to the Sigmoid function which was implemented using LUT.
